@@ -1,26 +1,29 @@
 @import '@radix-ui/themes/styles.css';
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+// @tailwind base;
+// @tailwind components;
+// @tailwind utilities;
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
 
 .light {
-  --background-color: rgb(255 255 255);
-  --border-color: rgb(209 213 219);
-  --border-outline-color: rgb(37 99 235);
-  --text-color: rgb(31 41 55);
-  --submit-btn-bg: rgb(37 99 235);
-  --submit-btn-text: rgb(255 255 255);
-  --icon-color: rgb(187 187 187);
+  --background-color: 255 255 255;
+  --border-color: 209 213 219;
+  --border-outline-color: 37 99 235;
+  --text-color: 31 41 55;
+  --submit-btn-bg: 37 99 235;
+  --submit-btn-text: 255 255 255;
+  --icon-color: 187 187 187;
 }
 
 .dark {
-  --background-color: rgb(51 51 51);
-  --border-color: rgb(209 213 219);
-  --border-outline-color: rgb(37 99 235);
-  --text-color: rgb(255 255 255);
-  --submit-btn-bg: rgb(37 99 235);
-  --submit-btn-text: rgb(255 255 255);
-  --icon-color: rgb(187 187 187);
+  --background-color: 51 51 51;
+  --border-color: 209 213 219;
+  --border-outline-color: 37 99 235;
+  --text-color: 255 255 255;
+  --submit-btn-bg: 37 99 235;
+  --submit-btn-text: 255 255 255;
+  --icon-color: 187 187 187;
 }
 
 // Define breakpoints for Mobile, Tablet, and Desktop
